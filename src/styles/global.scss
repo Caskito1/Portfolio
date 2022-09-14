@@ -1,0 +1,25 @@
+@import './vars';
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Montserrat;
+  
+}
+
+body{
+    background-color: var(--primary-color);
+  
+    color: var(--text-color);
+ 
+    
+    p{
+        color: var(--white);
+    }
+
+
+    
+}
+
+
+
