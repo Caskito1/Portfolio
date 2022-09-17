@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { template } = require('@babel/core');
 const MiniCssExtractPlugin = require ('mini-css-extract-plugin');
+const {CleanWebpackPlugin} = require ('clean-webpack-plugin')
 
 module.exports = {
     entry: './src/index.js',
@@ -66,6 +67,8 @@ plugins: [
     new MiniCssExtractPlugin({
         filename: '[name].css'
     }),
+
+    new CleanWebpackPlugin(),
 ],
 devServer: {
     historyApiFallback: true,

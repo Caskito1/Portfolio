@@ -82,7 +82,7 @@ const Slider = () => {
                   <SiWebpack />
                 </div>
               </div>
-              <button>Ver Web</button>
+             
             </div>
           </div>
         </SwiperSlide>
@@ -107,8 +107,9 @@ const Slider = () => {
                   <FaJs />
                 </div>
               </div>
-
-              <button>Ver Web</button>
+              <button>
+                <a href='http://www.limonfotografia.com/' target="_blank">Ver Web </a>
+              </button>
             </div>
           </div>
         </SwiperSlide>
@@ -133,7 +134,10 @@ const Slider = () => {
                   <FaJs />
                 </div>
               </div>
-              <button>Ver Web</button>
+              <button>
+                <a href='https://www.alvarezsegurostodoagro.com.uy/' target="_blank">Ver Web </a>
+              </button>
+         
             </div>
           </div>
         </SwiperSlide>
@@ -153,7 +157,9 @@ const Slider = () => {
                 </div>
               </div>
 
-              <button>Ver Web</button>
+              <button>
+                <a href='https://learninc.app/' target="_blank">Ver Web </a>
+              </button>
             </div>
           </div>
         </SwiperSlide>
@@ -172,7 +178,9 @@ const Slider = () => {
                   <FaWordpressSimple />
                 </div>
               </div>
-              <button>Ver Web</button>
+              <button>
+                <a href='http://rfaasociados.com.uy/' target="_blank">Ver Web </a>
+              </button>
             </div>
           </div>
         </SwiperSlide>
