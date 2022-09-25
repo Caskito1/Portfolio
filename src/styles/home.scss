@@ -148,7 +148,16 @@
 
 
     }
-     
+    .Cv_btn{
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        border: solid 2px ;   
+        transition: all 1s ;    
+    }
+    .Cv_btn:hover{
+     border-color: var(--white);
+    }
 }
 
 .Proyectos{

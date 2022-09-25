@@ -14,6 +14,7 @@ import Slider from "../components/Slider";
 import { TiArrowSync } from "react-icons/ti";
 
 import IMGPORTFILE from "../assets/FotoCVMobile.png";
+import PdfCV from "../assets/Cv2022AgustínBillar.pdf";
 
 const Home = () => {
   const [toogle, setToogle] = useState(true);
@@ -46,6 +47,9 @@ const Home = () => {
             alto impacto visual aprovechando la experiencia de ambas
             profesiones.
           </p>
+          <buton className= "Cv_btn"> 
+              <a href = {PdfCV} target = "_blank" > Descargá mi CV</a>
+          </buton>
         </div>
       </section>
 

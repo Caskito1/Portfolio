@@ -9,7 +9,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-        publicPath:"./",
+        //publicPath:"./",
     },
     mode: 'development',
     resolve: {
@@ -42,7 +42,7 @@ module.exports = {
             ],
         },
         {
-            test: /\.(png|svg|jpg|gif)$/,
+            test: /\.(pdf|png|svg|jpg|gif)$/,
             type: 'asset',
         },
         {
