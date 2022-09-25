@@ -37,10 +37,12 @@ export const Footer = () => {
                 </a>
                 </div>
                 <div className="logos phone">
+                <a href='tel:+59898403778' target="_blank">
                     <div className="phlogo">
                     <FaPhoneAlt />
                     </div>
                     <p> +598 98 403 778</p>
+                    </a>
                 </div>
           </div>
       </div>
