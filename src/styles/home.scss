@@ -149,6 +149,8 @@
 
     }
     .Cv_btn{
+       
+      
         margin-top: 20px;
         padding: 10px;
         border-radius: 10px;
@@ -157,6 +159,8 @@
     }
     .Cv_btn:hover{
      border-color: var(--white);
+     color: var(--white); 
+    
     }
 }
 
@@ -164,6 +168,7 @@
     display: flex;
     flex-direction: column;
     padding: 0px 50px 50px 50px;
+
     
    .titleProyects {
     color: var(--white);
@@ -172,7 +177,7 @@
 }
 @media (min-width: 1268px) {
     .Proyectos{
-         display: flex;
+        display: flex;
         flex-direction: column;
         padding: 0px 200px;
     }
@@ -186,6 +191,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding-bottom: 120px;
+
       
 
         .imageporfile{
@@ -202,6 +208,11 @@
                 object-fit: contain;            
             }
             }
+
+        .Cv_btn{
+        
+            align-self: center;
+        }
                 
     .TextContainer{
        

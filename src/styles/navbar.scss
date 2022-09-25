@@ -26,7 +26,7 @@
         justify-content: center;
         align-items: center;
         background: rgba(17, 20, 26, .3);
-        height: 120px;
+        height: 100px;
         border-radius:   30px 30px 0 0; 
         border: 2px  var(--text-color) solid ;
         border-bottom: none;
@@ -58,6 +58,8 @@
     @media (max-width: 600px){
         .Navbar{
             width: 600px;
+            height: 80px;
+
 
             li{  
                 color: var(--white);
