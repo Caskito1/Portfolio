@@ -18,6 +18,7 @@ import PdfCV from "../assets/Cv2022AgustínBillar.pdf";
 
 const Home = () => {
   const [toogle, setToogle] = useState(true);
+  
   return (
     <div className="container">
       <div className="navbar">
