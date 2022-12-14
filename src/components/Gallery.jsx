@@ -4,10 +4,10 @@ import '../styles/gallery.scss'
 import { FaWordpressSimple, FaCss3Alt, FaHtml5,FaJs,FaReact,FaSass } from "react-icons/fa";
 import { SiWebpack } from "react-icons/si";
 
-import IMG1 from '../assets/GalleryIMG/Template-webs-RFAs.png';
-import IMG2 from '../assets/GalleryIMG/Template-web-Limon.png';
-import IMG3 from '../assets/GalleryIMG/Template-webs-ASseguros.png';
-import IMG4 from '../assets/GalleryIMG/Template-webs-Learninc.png';
+import IMG1 from '../assets/GalleryIMG/Template-webs-RFAs.webp';
+import IMG2 from '../assets/GalleryIMG/Template-web-Limon.webp';
+import IMG3 from '../assets/GalleryIMG/Template-webs-ASseguros.webp';
+import IMG4 from '../assets/GalleryIMG/Template-webs-Learninc.webp';
 
 
 const Gallery = () => {

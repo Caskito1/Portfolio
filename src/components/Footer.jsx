@@ -21,7 +21,7 @@ export const Footer = () => {
               </a>
               </div>
               <div className="logos">
-              <a href='https://www.behance.net/caskitobillar' target="_blank">
+              <a href='https://www.behance.net/AgustinBillar' target="_blank">
                 <FaBehance />
                 </a>
               </div>

@@ -13,7 +13,7 @@ import Slider from "../components/Slider";
 
 import { TiArrowSync } from "react-icons/ti";
 
-import IMGPORTFILE from "../assets/FotoCVMobile.png";
+import IMGPORTFILE from "../assets/FotoCVMobile.webp";
 import PdfCV from "../assets/Cv2022AgustínBillar.pdf";
 
 const Home = () => {
