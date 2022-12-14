@@ -25,7 +25,7 @@ const Home = () => {
         <Navbar />
       </div>
 
-      <section className="Intro" id="Intro">
+      <section className="Intro" id="Intro" loading="lazy">
         <div className="TituloIntro">
           <p>Hola, Soy Agustín billar</p>
           <h1>Front-end</h1>
@@ -34,7 +34,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="SobreMi" id="SobreMi">
+      <section className="SobreMi" id="SobreMi" loading="lazy">
         <div className="imageporfile">
           <img src={IMGPORTFILE} alt="Image" className="image"></img>
         </div>
@@ -55,13 +55,13 @@ const Home = () => {
       </section>
 
     
-      <section className="Proyectos" id="Proyectos">
+      <section className="Proyectos" id="Proyectos" loading="lazy">
         <h1 className="titleProyects">Proyectos Web</h1>
 
         <Slider />
       </section>
 
-      <section className="Habilidades" id="Habilidades">
+      <section className="Habilidades" id="Habilidades" loading="lazy">
         <div className="toogle">
           <div>
             {toogle ? (
@@ -90,7 +90,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="Contacto" id="Contacto">
+      <section className="Contacto" id="Contacto" loading="lazy">
         <Footer />
       </section>
     </div>
